@@ -202,18 +202,18 @@
         <tr>
           <td rowspan="7" id="myTotal"></td>
           <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
-          <td id='m1'>2</td>
-          <td>Simple baseline - 描述、描述、描述</td>
+          <td id='m1'>3</td>
+          <td>Simple baseline - 在Unity的環境下，將自己組別成員的星座可視化。x軸 : 12星座、y軸 : 該星座的總移動距離；星座雕塑與高度對應： 總移動距離較多的星座高度較高，總移動距離較少的星座高度較低。</td>
         </tr>
         <tr>
           <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
-          <td id='m2'>6</td>
-          <td>Medium baseline - 描述、描述、描述 </td>
+          <td id='m2'>4</td>
+          <td>Medium baseline - 在星座雕塑上點擊或懸停時，顯示該星座的成員移動距離(累積的消耗卡路里)樹狀圖，移動距離越遠(消耗的卡路里越高)圖片大小越大。</td>
         </tr>
         <tr>
           <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
-          <td id='m3'>2</td>
-          <td>Strong baseline - 描述、描述、描述 </td>
+          <td id='m3'>3</td>
+          <td>Strong baseline - 樹狀圖成長的動畫，並加入適當音樂、音效、燈光效果、特效來增強沉浸感。</td>
         </tr>
       </table>
     </div>
@@ -244,10 +244,6 @@
   d3.select("#myCheckbox1").on("change",update);
   d3.select("#myCheckbox2").on("change",update);
   d3.select("#myCheckbox3").on("change",update);
-  d3.select("#myCheckbox4").on("change",update);
-  d3.select("#myCheckbox5").on("change",update);
-  d3.select("#myCheckbox6").on("change",update);
-  d3.select("#myCheckbox7").on("change",update);
 
   update();
   
