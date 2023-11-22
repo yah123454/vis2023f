@@ -1,0 +1,14 @@
+{
+  "name": "c3c2a711a9401843",
+  "main": "c3c2a711a9401843@49.js",
+  "version": "49.0.0",
+  "homepage": "https://observablehq.com/d/c3c2a711a9401843",
+  "author": {
+    "name": "北科大-羅名彥's Workspace",
+    "url": "https://observablehq.com/@bei-ke-da-luo-ming-yan-ws"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
